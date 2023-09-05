@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>App Web Identificador de Sons</title>
+
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- ML5 -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <!-- Google Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div classs="col-xs-12 text-center header_div">
+        <h2> Alienigenas controlados por sons </h2>
+        <p> Reproduza sons como: Apito Flauta e Palmas para movimentar os Alienigenas </p>
+    </div>
+    <div class="main_div">
+        <center> 
+            <button onclick="Iniciar()" class="btn btn-Secondary"> Iniciar </button>
+            <h3 id="resultLabel">Posso Ouvir</h3>
+            <h3 id="resultConfidence">Precisao</h3>
+            <img src = "aliens-01.png" id = "A1 "width = "300" height = "250">
+            <img src = "aliens-02.png" id = "A2 "width = "300" height = "250"> 
+            <img src = "aliens-03.png" id = "A3 "width = "300" height = "250"> 
+            <img src = "aliens-04.png" id = "A4 "width = "300" height = "250"> 
+        </center>
+    </div>
+    <div class="Desenvolvedor"> Desenvolvido por Enzo Tsallis e Leticia</div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
