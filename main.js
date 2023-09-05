@@ -30,13 +30,13 @@ function obterResultados(error, results){
             img3.src= "aliens-03.png"
             img4.src= "aliens-04.png"
         }
-        if(label == "Flauta"){
+        else if(label == "Flauta"){
             img.src= "aliens-01.png"
             img2.src= "aliens-02.gif"
             img3.src= "aliens-03.png"
             img4.src= "aliens-04.png"
         }
-        if(label == "Palmas"){
+        else if(label == "Palmas"){
             img.src= "aliens-01.png"
             img2.src= "aliens-02.png"
             img3.src= "aliens-03.gif"
